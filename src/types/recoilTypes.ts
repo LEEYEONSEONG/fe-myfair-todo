@@ -3,3 +3,5 @@ export interface ITodo {
   text: string;
   isDone: boolean;
 }
+
+export type ITodoFilter = "All" | "To Do" | "Done";
