@@ -14,6 +14,11 @@ const GlobalStyle = () => (
       body {
         height: 100%;
         font-family: "Pretendard", sans-serif;
+        color: #000000;
+        background-color: #f6f6f6;
+      }
+      input {
+        outline: none;
       }
     `}
   />
