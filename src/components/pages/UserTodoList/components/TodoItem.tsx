@@ -14,6 +14,7 @@ const TodoItem = ({ todo }: ITodoItemTypeProps) => {
   const setTodoList = useSetRecoilState(todoState);
 
   const toggleComplete = () => {
+    console.log("test",test)
     setTodoList((prev) => prev.map((item) => (item.id === todo.id ? { ...item, isDone: !item.isDone } : item)));
   };
 
